@@ -40,13 +40,14 @@ class App extends Component {
     const {items} = this.state;
     return (
       <div>
+        <h1 className="text-center">Prakiraan Cuaca Yogyakarta</h1>
         <table className="table table-bordered">
           <thead>
             <tr>
               <th scope="col">Datetime</th>
               <th scope="col">Temp</th> 
-              <th scope="col">Temp_min</th>
-              <th scope="col">Temp_max</th>
+              <th scope="col">Temp Min</th>
+              <th scope="col">Temp Max</th>
               <th scope="col">Weather</th>
             </tr>
           </thead>
